@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.webui" name="webui" version="0.0.1" provider-name="N3MIS15">
+    <requires>
+        <import addon="xbmc.python" version="2.0" />
+        <import addon="script.module.simplejson" version="2.0.10" />
+    </requires>
+    <extension point="xbmc.service" start="[login|startup]" library="service.py"></extension>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">new webui</summary>
+        <description lang="en">meh meh meh</description>
+        <platform>all</platform>
+    </extension>
+</addon>

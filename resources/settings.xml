@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="1010"><!-- Server -->
+		<setting id="port" type="text" label="1011" default="8100" />
+		<setting id="hostname" type="text" label="1012" default="" />
+		<setting id="webroot" type="text" label="1013" default="" />
+	</category>
+</settings>
